@@ -1,0 +1,16 @@
+.zero {
+  position: relative;
+}
+
+.zero::after {
+  background-color: #7baaf7;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_zero_inbox_2x.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 228px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  content: "";
+}
